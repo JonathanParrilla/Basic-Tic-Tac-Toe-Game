@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C78024A1891CC29008B66D5 /* tictacttoeboard.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 3C7802491891CC27008B66D5 /* tictacttoeboard.PNG */; };
+		3C7916C51890E32E00FB1E54 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C7916C41890E32E00FB1E54 /* UIKit.framework */; };
+		3C7916C71890E32E00FB1E54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C7916C61890E32E00FB1E54 /* Foundation.framework */; };
+		3C7916C91890E32E00FB1E54 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C7916C81890E32E00FB1E54 /* CoreGraphics.framework */; };
+		3C7916CF1890E32F00FB1E54 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C7916CD1890E32F00FB1E54 /* InfoPlist.strings */; };
+		3C7916D11890E32F00FB1E54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C7916D01890E32F00FB1E54 /* main.m */; };
+		3C7916D51890E32F00FB1E54 /* JPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C7916D41890E32F00FB1E54 /* JPAppDelegate.m */; };
+		3C7916D71890E32F00FB1E54 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C7916D61890E32F00FB1E54 /* Default.png */; };
+		3C7916D91890E33000FB1E54 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C7916D81890E33000FB1E54 /* Default@2x.png */; };
+		3C7916DB1890E33000FB1E54 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C7916DA1890E33000FB1E54 /* Default-568h@2x.png */; };
+		3C7916DE1890E33000FB1E54 /* JPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C7916DD1890E33000FB1E54 /* JPViewController.m */; };
+		3C7916E11890E33000FB1E54 /* JPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C7916DF1890E33000FB1E54 /* JPViewController.xib */; };
+		3C7916E91890E6D100FB1E54 /* JPGameboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C7916E81890E6D100FB1E54 /* JPGameboard.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3C7802491891CC27008B66D5 /* tictacttoeboard.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tictacttoeboard.PNG; sourceTree = "<group>"; };
+		3C7916C11890E32E00FB1E54 /* jparr053-p2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "jparr053-p2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C7916C41890E32E00FB1E54 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3C7916C61890E32E00FB1E54 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3C7916C81890E32E00FB1E54 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3C7916CC1890E32F00FB1E54 /* jparr053-p2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "jparr053-p2-Info.plist"; sourceTree = "<group>"; };
+		3C7916CE1890E32F00FB1E54 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3C7916D01890E32F00FB1E54 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3C7916D21890E32F00FB1E54 /* jparr053-p2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "jparr053-p2-Prefix.pch"; sourceTree = "<group>"; };
+		3C7916D31890E32F00FB1E54 /* JPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JPAppDelegate.h; sourceTree = "<group>"; };
+		3C7916D41890E32F00FB1E54 /* JPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JPAppDelegate.m; sourceTree = "<group>"; };
+		3C7916D61890E32F00FB1E54 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		3C7916D81890E33000FB1E54 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		3C7916DA1890E33000FB1E54 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		3C7916DC1890E33000FB1E54 /* JPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JPViewController.h; sourceTree = "<group>"; };
+		3C7916DD1890E33000FB1E54 /* JPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JPViewController.m; sourceTree = "<group>"; };
+		3C7916E01890E33000FB1E54 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/JPViewController.xib; sourceTree = "<group>"; };
+		3C7916E71890E6D100FB1E54 /* JPGameboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPGameboard.h; sourceTree = "<group>"; };
+		3C7916E81890E6D100FB1E54 /* JPGameboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPGameboard.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C7916BE1890E32E00FB1E54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C7916C51890E32E00FB1E54 /* UIKit.framework in Frameworks */,
+				3C7916C71890E32E00FB1E54 /* Foundation.framework in Frameworks */,
+				3C7916C91890E32E00FB1E54 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C7916B81890E32D00FB1E54 = {
+			isa = PBXGroup;
+			children = (
+				3C7802491891CC27008B66D5 /* tictacttoeboard.PNG */,
+				3C7916CA1890E32E00FB1E54 /* jparr053-p2 */,
+				3C7916C31890E32E00FB1E54 /* Frameworks */,
+				3C7916C21890E32E00FB1E54 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C7916C21890E32E00FB1E54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C7916C11890E32E00FB1E54 /* jparr053-p2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C7916C31890E32E00FB1E54 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C7916C41890E32E00FB1E54 /* UIKit.framework */,
+				3C7916C61890E32E00FB1E54 /* Foundation.framework */,
+				3C7916C81890E32E00FB1E54 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3C7916CA1890E32E00FB1E54 /* jparr053-p2 */ = {
+			isa = PBXGroup;
+			children = (
+				3C7916D31890E32F00FB1E54 /* JPAppDelegate.h */,
+				3C7916D41890E32F00FB1E54 /* JPAppDelegate.m */,
+				3C7916DC1890E33000FB1E54 /* JPViewController.h */,
+				3C7916DD1890E33000FB1E54 /* JPViewController.m */,
+				3C7916DF1890E33000FB1E54 /* JPViewController.xib */,
+				3C7916CB1890E32F00FB1E54 /* Supporting Files */,
+				3C7916E71890E6D100FB1E54 /* JPGameboard.h */,
+				3C7916E81890E6D100FB1E54 /* JPGameboard.m */,
+			);
+			path = "jparr053-p2";
+			sourceTree = "<group>";
+		};
+		3C7916CB1890E32F00FB1E54 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C7916CC1890E32F00FB1E54 /* jparr053-p2-Info.plist */,
+				3C7916CD1890E32F00FB1E54 /* InfoPlist.strings */,
+				3C7916D01890E32F00FB1E54 /* main.m */,
+				3C7916D21890E32F00FB1E54 /* jparr053-p2-Prefix.pch */,
+				3C7916D61890E32F00FB1E54 /* Default.png */,
+				3C7916D81890E33000FB1E54 /* Default@2x.png */,
+				3C7916DA1890E33000FB1E54 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C7916C01890E32E00FB1E54 /* jparr053-p2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C7916E41890E33000FB1E54 /* Build configuration list for PBXNativeTarget "jparr053-p2" */;
+			buildPhases = (
+				3C7916BD1890E32E00FB1E54 /* Sources */,
+				3C7916BE1890E32E00FB1E54 /* Frameworks */,
+				3C7916BF1890E32E00FB1E54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "jparr053-p2";
+			productName = "jparr053-p2";
+			productReference = 3C7916C11890E32E00FB1E54 /* jparr053-p2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C7916B91890E32D00FB1E54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JP;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Jonathan Parrilla";
+			};
+			buildConfigurationList = 3C7916BC1890E32D00FB1E54 /* Build configuration list for PBXProject "jparr053-p2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				es,
+			);
+			mainGroup = 3C7916B81890E32D00FB1E54;
+			productRefGroup = 3C7916C21890E32E00FB1E54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C7916C01890E32E00FB1E54 /* jparr053-p2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C7916BF1890E32E00FB1E54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C7916CF1890E32F00FB1E54 /* InfoPlist.strings in Resources */,
+				3C7916D71890E32F00FB1E54 /* Default.png in Resources */,
+				3C7916D91890E33000FB1E54 /* Default@2x.png in Resources */,
+				3C7916DB1890E33000FB1E54 /* Default-568h@2x.png in Resources */,
+				3C7916E11890E33000FB1E54 /* JPViewController.xib in Resources */,
+				3C78024A1891CC29008B66D5 /* tictacttoeboard.PNG in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C7916BD1890E32E00FB1E54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C7916D11890E32F00FB1E54 /* main.m in Sources */,
+				3C7916D51890E32F00FB1E54 /* JPAppDelegate.m in Sources */,
+				3C7916DE1890E33000FB1E54 /* JPViewController.m in Sources */,
+				3C7916E91890E6D100FB1E54 /* JPGameboard.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3C7916CD1890E32F00FB1E54 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C7916CE1890E32F00FB1E54 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3C7916DF1890E33000FB1E54 /* JPViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C7916E01890E33000FB1E54 /* en */,
+			);
+			name = JPViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C7916E21890E33000FB1E54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3C7916E31890E33000FB1E54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C7916E51890E33000FB1E54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "jparr053-p2/jparr053-p2-Prefix.pch";
+				INFOPLIST_FILE = "jparr053-p2/jparr053-p2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3C7916E61890E33000FB1E54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "jparr053-p2/jparr053-p2-Prefix.pch";
+				INFOPLIST_FILE = "jparr053-p2/jparr053-p2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C7916BC1890E32D00FB1E54 /* Build configuration list for PBXProject "jparr053-p2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C7916E21890E33000FB1E54 /* Debug */,
+				3C7916E31890E33000FB1E54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C7916E41890E33000FB1E54 /* Build configuration list for PBXNativeTarget "jparr053-p2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C7916E51890E33000FB1E54 /* Debug */,
+				3C7916E61890E33000FB1E54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C7916B91890E32D00FB1E54 /* Project object */;
+}
